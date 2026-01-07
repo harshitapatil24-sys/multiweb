@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+.Welcome{
+    text-align:center;
+    color:blue ;
+    /* font-style:italic; */
+    font-size:35px;
+    font-family: Rye;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: aqua;
+    background-image:url("https://tse3.mm.bing.net/th/id/OIP.Fcyo0pRFUhHa95kPNbbuEgHaFj?pid=Api&P=0&h=180") ;
+}
+.Welcomeasdf{
+    text-align:end;
+    color:black ;
+    font-style:italic;
+    font-size:71px;
+    font-family: Rye;
+    font-weight: bold;
+    text-decoration:overline;
+    background-color: silver;
+  
+}

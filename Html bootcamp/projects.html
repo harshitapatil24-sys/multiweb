@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Harshita Sharma</title>
+  <meta name="description" content="Portfolio and projects.">
+</head>
+<body>
+  <header>
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="education.html">Education</a> |
+      <a href="media.html">Media</a> |
+      <a href="contact.html">Form </a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h3>Portfolio || Resume</h3>
+      <p>Description:<br> This project demonstrates embedding a resume and linking to design resources - Canva...</p>
+
+      <!-- If your resume.pdf is inside the same folder -->
+      <section aria-label="Resume embed">
+        <h3> Resume (Embedded) </h3>
+        <iframe src="resume.pdf" width="600" height="500" title="Resume PDF">Your browser does not support displaying PDFs. Use the link below to download.</iframe>
+        <p><a href="resume.pdf" target="_blank" rel="noopener">Open Resume in new tab</a></p>
+      </section>
+      
+      <section aria-label="Canva link">
+        <h3>Designs on Canva</h3>
+        <!-- Clickable image opens Canva in a new tab -->
+        <figure>
+          <a href="https://www.canva.com/en_in/" target="_blank" rel="noopener noreferrer">
+            <img src="images/project1.jpg" alt="Example portfolio thumbnail" width="300" height="200">
+          </a>
+          <figcaption>Click the image to visit Canva (open in new tab)</figcaption>
+        </figure>
+      </section>
+    </article>
+
+    <article>
+      <h4>Data Analysis Project</h4>
+      <p>Student performance analysis using Python and Excel.<br> <strong>Key points:</strong> data cleaning, EDA, visualization and basic predictive modeling.</p>
+      <meter value="75" min="0" max="100">75%</meter>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harshita</p>
+  </footer>
+</body>
+</html>

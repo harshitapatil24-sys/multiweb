@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Information Form</title>
+</head>
+<body>
+    <header>
+        <h1>FORM</h1>
+            <nav>
+      <a href="combineproject.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="media.html">Media</a> |
+      <a href="contact.html">Form </a>
+    </nav>
+    </header>
+  <h2>Contact, Academic & College Information Form</h2>
+
+  <form action="#" method="post">
+    
+    <!-- Personal Details -->
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+    </fieldset>
+    <br>
+
+    <!-- Academic Details -->
+    <fieldset>
+      <legend>Academic Information</legend>
+
+      <label for="tenth">10th Percentage / Marks:</label><br>
+      <input type="text" id="tenth" name="tenth" placeholder="e.g. 85%" required><br><br>
+
+      <label for="twelfth">12th Percentage / Marks:</label><br>
+      <input type="text" id="twelfth" name="twelfth" placeholder="e.g. 80%" required><br><br>
+
+      <label for="stream">Stream in 12th:</label><br>
+      <select id="stream" name="stream" required>
+        <option value="">-- Select Stream --</option>
+        <option value="science">Science</option>
+        <option value="commerce">Commerce</option>
+        <option value="arts">Arts</option>
+        <option value="other">Other</option>
+      </select><br><br>
+    </fieldset>
+    <br>
+
+    <!-- College Details -->
+    <fieldset>
+      <legend>College Information</legend>
+
+      <label for="branch">Branch:</label><br>
+      <select id="branch" name="branch" required>
+        <option value="">-- Select Branch --</option>
+        <option value="cse">Computer Science</option>
+        <option value="it">Information Technology</option>
+        <option value="entc">Electronics & Telecommunication</option>
+        <option value="mech">Mechanical</option>
+        <option value="civil">Civil</option>
+        <option value="electrical">Electrical</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="year">Year:</label><br>
+      <select id="year" name="year" required>
+        <option value="">-- Select Year --</option>
+        <option value="fe">First Year</option>
+        <option value="se">Second Year</option>
+        <option value="te">Third Year</option>
+        <option value="be">Final Year</option>
+      </select><br><br>
+
+      <label for="batch">Batch:</label><br>
+      <input type="text" id="batch" name="batch" placeholder="e.g. B1, B2, A1" required><br><br>
+
+      <label for="division">Division:</label><br>
+      <input type="text" id="division" name="division" placeholder="e.g. A, B, C" required><br><br>
+    </fieldset>
+    <br>
+
+    <!-- Message -->
+    <fieldset>
+      <legend>Message</legend>
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea><br><br>
+    </fieldset>
+    <br>
+
+    <!-- Submit & Reset -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+</body>
+</html>
